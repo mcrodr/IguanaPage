@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+.title {
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #000000;
+}
+
+header {
+    height: 727px;
+    background-image: url('../img/bg-header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#information {
+    background: black;
+    padding: 100px;
+    color: white;
+  }
+  
+  #information .info {
+    width: 800px;
+    margin: auto;
+  }
+  
+  .info img {
+    width: 25%;
+  }
+  
+  .info .text {
+    width: 70%;
+    margin-left: 4%;
+  }
+  
+  .info img,
+  .text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
